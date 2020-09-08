@@ -1,2 +1,3 @@
-# Golang.learning
-Golang from entry to running
+# Go.learning
+Go from entry to running
+#Make small but daily progress#
