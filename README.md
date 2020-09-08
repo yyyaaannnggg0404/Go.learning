@@ -1,4 +1,2 @@
 # Go.learning
-Go from entry to running
-
-#Make small but daily progress#
+Go from entry to running. #Make small but daily progress#
