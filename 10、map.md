@@ -1,0 +1,31 @@
+# Map
+```
+m := map[stirng]string {
+  "name": "ccmouse",
+  "course": "golang",
+  "site": "imooc",
+  "quality": "notbad",
+}
+```
+* 创建：make(map[string]int)
+* 获取元素：m[key]
+* key不存在时，获得Value类型的初始值
+* 用value, ok := m[key]来判断是否存在key
+* 用delete删除一个key
+* map[K]V, map[K1]map[K2]V
+
+## Map的遍历
+* 使用range遍历key，或者遍历key，value对
+* 不保证遍历顺序，如需顺序，需手动对key排序
+* 使用len获得元素个数
+
+## Map的key
+* map使用哈希表，必须可以比较相等
+* 除了slice，map，function的内建类型都可以作为key
+* Struct类型不包含上述字段，也可作为key
+
+## 例：寻找最长不含有重复字符的字串
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+* abcabcbb -> abc
+* bbbbb -> b
+* pwwekw -> wke
